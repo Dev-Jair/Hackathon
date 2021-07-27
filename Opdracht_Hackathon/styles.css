@@ -1,0 +1,203 @@
+body {
+    background: #414141 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #FFFFFF;
+}
+
+/* ====================== NAV MENU ======================== */
+
+.menu ul, .menu li {
+    margin: 0;
+    padding: 0;
+}
+.menu ul {
+    background: gray;
+    list-style: none;
+    width: 100%;
+}
+.menu li {
+    float: left;
+    position: relative;
+    width: auto;
+}
+.menu a {
+    background: #414141;
+    color: #FFFFFF;
+    display: block;
+    font: bold 12px/20px sans-serif;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.menu li:hover a {
+    background: #000000;
+}
+
+/* ========================== IMAGES =========================== */
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    padding: 5px;
+}
+
+/* ============================== TEXT =============================== */
+.elitist_text {
+    float: left;
+    width: 45%;
+}
+
+.adapex_text {
+    float: right;
+    width: 50%;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+.h1_about {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.h1_contact {
+    padding-top: 100px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+.h2_icons {
+    text-align: center;
+    padding-top: 250px;
+    font-style: normal;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.p_contact {
+    text-align: center;
+}
+
+.p_icons {
+    padding-right: 50px;
+}
+/* ================================= BUTTONS =============================== */
+
+.button1 {
+    border: none;
+    color: #000;
+}
+
+/* =============================== UNICONS ================================= */
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.battery_icon {
+    font-size: 70px;
+}
+
+.volume_icon {
+    font-size: 70px;
+}
+
+.buttons_icon {
+    font-size: 70px;
+}
+
+.design_icon {
+    font-size: 70px;
+}
+
+/* ============================= FORM ================================ */
+
+.newsletter {
+    display: inline-block;
+    background-color: #585858;
+    margin-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+} 
+
+.submit_button {
+    padding-top: 6.8px;
+    padding-bottom: 6.8px;
+}
+
+.contact_form {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    margin-bottom: 20px;
+}
+
+/* ================================ FOOTER =============================== */
+
+.footer_message {
+    text-align: center;
+}
+
+/* ----------------- MEDIA QUERIES ------------------ */
+
+/* DESKTOP */
+
+@media screen and (min-width: 768px) {
+    h2 {
+        font-style: italic;
+    }
+}
+
+/* MOBILE */
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+    .p_icons {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .elitist_text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .adapex_text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .icons {
+        display: block;
+    }
+}
+
+
+
+
